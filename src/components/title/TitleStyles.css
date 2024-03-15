@@ -1,0 +1,40 @@
+.add-new-element-section{
+    margin-top: 50px;
+    border-radius: 12px;
+    height: 70px;
+    background-color: rgba(241, 231, 218, 0.601);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px rgba(140, 97, 196, 0.478);
+    width: 90%;
+}
+
+.add-new-element-section input{
+    text-decoration: none;
+    border: 0px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 90%;
+    padding-left: 60px;
+
+    font-size: 30px;
+    font-family: "Exo";
+    font-weight: 400;
+    color: rgb(160, 126, 204);
+}
+.add-new-element-section input:focus{
+    border-color: red;
+}
+
+.add-btn{
+    border: 0px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 20%;
+    background-color: rgb(7, 16, 49);
+
+    font-size: 40px;
+    font-family: "Exo";
+    font-weight: 500;
+    color: rgb(160, 126, 204);
+}

@@ -1,0 +1,55 @@
+.tasks{
+    border-radius: 30px;
+    width: 80%;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 13px 8px 13px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    color: rgb(160, 126, 204);
+}
+li p{
+    margin: 0px;
+    padding-right: 40px;
+    width: 250px;
+    color: rgb(160, 126, 204);
+}
+ul li::before{
+    content: ' ';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../../assets/images/icons8-unchecked-checkbox-100.png);
+    background-size: cover;
+    background-position: center;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(../../assets/images/icons8-checkbox-100.png);
+    height: 24px;
+    width: 24px;
+    left: 10px;
+}
+.remove-btn img{
+    width: 20px;
+}
+.remove-btn{
+    text-decoration: none;
+    border: 0px;
+    background-color: transparent;
+}
+li .date-p{
+    font-size: 15px;
+}

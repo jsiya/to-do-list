@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App{
+    font-family: "Exo";
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+     background-color: rgba(7, 16, 49, 0.887);
+     min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(7, 16, 49, 0.887);
+    width: 90%;
+    height: 100px;
+    border-radius: 12px;
+    box-shadow: 12px 8px rgba(140, 97, 196, 0.478);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header img{
+    height: 60px;
+    width: 55px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-p{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(160, 126, 204);
 }
-
-.App-link {
-  color: #61dafb;
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer{
+    opacity: 0;
 }
